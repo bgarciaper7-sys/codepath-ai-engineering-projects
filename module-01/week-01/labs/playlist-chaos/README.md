@@ -110,3 +110,15 @@ python -m streamlit run app.py
 This activity strengthened my understanding of Python conditional logic, deterministic rule-based systems, debugging, verification, and AI-assisted development.
 
 The most important lesson was that AI-generated suggestions should be treated as hypotheses that need to be reviewed and tested rather than automatically accepted.
+
+## Screenshots
+
+### Case-Insensitive Artist Search
+Searching "AC" successfully returns "Thunderstruck" by AC/DC.
+
+![Playlist Search](screenshots/playlist-search.png)
+
+### Mood Classification
+A calm ambient song with energy 2 is correctly classified as Chill, even when ambient is the favorite genre.
+
+![Mood Classification](screenshots/mood-classification.png)
