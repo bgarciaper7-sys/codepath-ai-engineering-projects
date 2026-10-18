@@ -6,7 +6,9 @@ A portfolio of hands-on projects completed as part of CodePath AI Engineering (A
 
 | Module | Week | Project | Technologies | Highlights |
 |---|---|---|---|---|
-| 2 | 3 | [Game Glitch Investigator](module-02/week-03/projects/game-glitch-investigator/) | Python, Streamlit, pytest, Streamlit AppTest | Debugged an AI-generated guessing game, corrected game logic and state management, and verified 107 passing automated tests. |
+| 1 | 1 | [Playlist Chaos](module-01/week-01/labs/playlist-chaos/README.md) | Python, Streamlit, Git, AI-assisted debugging | Fixed partial and case-insensitive search, corrected mood classification, and refactored conditional logic. |
+| 2 | 3 | [Game Glitch Investigator](module-02/week-03/projects/game-glitch-investigator/README.md) | Python, Streamlit, pytest, Streamlit AppTest | Fixed game logic and state management; verified 107 passing automated tests. |
+
 
 ## Skills Demonstrated
 
