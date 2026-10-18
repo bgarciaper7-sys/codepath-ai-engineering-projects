@@ -116,3 +116,25 @@ I reviewed AI suggestions before applying them and verified the results through 
 
 - **SF7: Test Generation:** Used AI to generate and improve automated tests.
 - **SF8: Agent Workflow:** Used Claude to assist with multi-file code changes and debugging.
+
+## 📸 Project Screenshots
+
+### 1. Game Interface
+The repaired Streamlit application displays the selected difficulty, number range, and available attempts.
+
+![Game Interface](screenshots/game-interface.png)
+
+### 2. Input Validation
+The game rejects an out-of-range guess of 102 without deducting an attempt. All 8 attempts remain available.
+
+![Input Validation](screenshots/input-validation.png)
+
+### 3. Successful Game Completion
+The game correctly recognizes the winning guess of 81, displays a success message, and calculates a final score of 80.
+
+![Winning Game](screenshots/game-win.png)
+
+### 4. Automated Testing
+All 107 automated tests passed using pytest, including game logic and Streamlit AppTest coverage.
+
+![Automated Tests](screenshots/automated-tests.png)
