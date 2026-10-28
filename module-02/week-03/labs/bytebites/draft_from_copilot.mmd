@@ -1,0 +1,41 @@
+classDiagram
+    class Customer {
+        -String name
+        -List~Order~ purchaseHistory
+        +getName() String
+        +getPurchaseHistory() List~Order~
+        +addOrder(order Order) void
+        +hasPurchaseHistory() boolean
+    }
+
+    class MenuItem {
+        -String name
+        -float price
+        -String category
+        -float popularityRating
+        +getName() String
+        +getPrice() float
+        +getCategory() String
+        +getPopularityRating() float
+    }
+
+    class Menu {
+        -List~MenuItem~ items
+        +addItem(item MenuItem) void
+        +removeItem(item MenuItem) void
+        +getAllItems() List~MenuItem~
+        +filterByCategory(category String) List~MenuItem~
+    }
+
+    class Order {
+        -List~MenuItem~ selectedItems
+        +addItem(item MenuItem) void
+        +removeItem(item MenuItem) void
+        +getSelectedItems() List~MenuItem~
+        +computeTotal() float
+    }
+
+    Customer "1" --> "0..*" Order : places
+    Customer ..> Menu : browses
+    Menu "1" o-- "0..*" MenuItem : contains
+    Order "1" o-- "1..*" MenuItem : includes

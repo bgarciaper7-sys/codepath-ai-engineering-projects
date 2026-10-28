@@ -1,0 +1,31 @@
+classDiagram
+    class Customer {
+        -String name
+        -List~Order~ purchaseHistory
+        +add_order(order Order) void
+        +has_purchase_history() bool
+    }
+
+    class MenuItem {
+        +String name
+        +float price
+        +String category
+        +float popularity_rating
+    }
+
+    class Menu {
+        -List~MenuItem~ items
+        +add_item(item MenuItem) void
+        +filter_by_category(category String) List~MenuItem~
+        +sort_by_popularity() List~MenuItem~
+    }
+
+    class Order {
+        -List~MenuItem~ items
+        +add_item(item MenuItem) void
+        +compute_total() float
+    }
+
+    Customer "1" --> "0..*" Order : places
+    Menu "1" o-- "0..*" MenuItem : contains
+    Order "1" o-- "0..*" MenuItem : includes
