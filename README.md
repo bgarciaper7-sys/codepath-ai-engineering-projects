@@ -11,7 +11,7 @@ A portfolio of hands-on projects completed as part of CodePath AI Engineering (A
 | 1 | 2 | [Split the Logic](module-01/week-02/labs/split-the-logic/README.md) | Python, pytest, Git | Refactored scoring logic into reusable modules, added boundary testing, investigated unusual inputs, and verified 2 passing tests. |
 | 2 | 3 | [Game Glitch Investigator](module-02/week-03/projects/game-glitch-investigator/README.md) | Python, Streamlit, pytest, Streamlit AppTest | Fixed game logic and state management; verified 107 passing automated tests. |
 | 2 | 3 | [ByteBites: Campus Food Ordering System](module-02/week-03/labs/bytebites/README.md) | Python, pytest, Mermaid UML, Git | Designed four OOP classes, implemented order calculations, menu filtering and popularity sorting, and verified 5 passing automated tests. |
-
+| 2 | 4 | [Wire It Up](module-02/week-04/labs/wire-it-up/README.md) | Python, Streamlit, dataclasses, datetime, Git | Implemented persistent session state, input validation, dataclasses, recurring dates, and scheduling conflict detection. |
 
 ## Skills Demonstrated
 
