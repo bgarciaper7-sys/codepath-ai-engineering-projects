@@ -12,6 +12,7 @@ A portfolio of hands-on projects completed as part of CodePath AI Engineering (A
 | 2 | 3 | [Game Glitch Investigator](module-02/week-03/projects/game-glitch-investigator/README.md) | Python, Streamlit, pytest, Streamlit AppTest | Fixed game logic and state management; verified 107 passing automated tests. |
 | 2 | 3 | [ByteBites: Campus Food Ordering System](module-02/week-03/labs/bytebites/README.md) | Python, pytest, Mermaid UML, Git | Designed four OOP classes, implemented order calculations, menu filtering and popularity sorting, and verified 5 passing automated tests. |
 | 2 | 4 | [Wire It Up](module-02/week-04/labs/wire-it-up/README.md) | Python, Streamlit, dataclasses, datetime, Git | Implemented persistent session state, input validation, dataclasses, recurring dates, and scheduling conflict detection. |
+| 3 | 5 | [The Mood Machine](module-03/week-05/labs/mood-machine/README.md) | Python, scikit-learn, NLP, Regex | Built rule-based and ML sentiment classifiers; implemented negation, emoji and mixed-sentiment detection; evaluated both models on 11 labeled posts and investigated sarcasm, slang and context limitations. |
 
 ## Skills Demonstrated
 
@@ -20,6 +21,9 @@ A portfolio of hands-on projects completed as part of CodePath AI Engineering (A
 - Automated testing with pytest and Streamlit AppTest
 - AI-assisted development with human review and verification
 - Technical documentation and reflective learning
+- Natural language processing (NLP) and sentiment analysis
+- Machine learning with scikit-learn and logistic regression
+- Model evaluation, error analysis, and responsible AI
 
 ## About This Repository
 
